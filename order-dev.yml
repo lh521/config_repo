@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1/springcloud_sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://127.0.0.1/cloud_order?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
 eureka:
@@ -16,7 +16,3 @@ eureka:
 #    appname: firstEurekaClient
 env:
   dev
-
-girl:
-  name: leo
-  age: 19
