@@ -2,7 +2,7 @@ env:
   dev
 spring:
   application:
-    name: product
+    name: user
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
